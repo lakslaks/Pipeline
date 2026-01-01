@@ -1,0 +1,12 @@
+[
+  {
+    "name": "hello",
+    "action": "builtins#print",
+    "args": ["Hello from JSON"]
+  },
+  {
+    "name": "complete",
+    "action": "builtins#print",
+    "args": ["All good"]
+  }
+]

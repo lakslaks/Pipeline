@@ -1,0 +1,10 @@
+# 14_yaml_pipeline.yaml
+# Sample YAML-based pipeline
+
+- name: greet
+  action: builtins#print
+  args: ["Hi from YAML"]
+
+- name: done
+  action: builtins#print
+  args: ["Completed"]
